@@ -1,0 +1,43 @@
+:root{
+    /* COLORS */
+    --color-primary: #ee5057;
+    --color-secondary: #111;
+    --color-text: #898989;
+    /* colors */
+
+    /* FONT */
+    --font-primary: 'Open Sans', Helvertica, Ariel, sans-serif;
+    --font-light: 400;
+    --font-bold: 700;
+    --font-size-text: 13px;
+    --font-size-title: 20px;
+    --font-size-section-title: 48px;
+    /* font */
+
+    /* SIZE */
+    --size-primary: 25px;
+    --margin-primary: var(--size-primary);
+    --padding-primary: var(--size-primary);
+    --height-primary: 120px;
+    /* size */
+
+    /* BREAKPOINTS */
+    --md: 768px;
+    /* breakpoits */
+}
+
+@media (min-width: var(--md)) {
+    .navbar {
+            height: var(--height-primary);
+        }
+    
+    .navbar .level-nav-link.nav-link {
+        padding: calc(var(--padding-primary) * 2) var(--padding-primary);
+        transition: .3s;
+    }
+}
+
+.navbar .level-nav-link.nav-link:hover{
+    background-color: #ee5057;
+    color: #fff;
+}
