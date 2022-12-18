@@ -8,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Level</title>
 </head>
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Website Logo"><span class="logo-text">Level</span></a>
@@ -29,7 +32,92 @@
             </div>
         </div>
     </nav>
+    <!-- navbar -->
+
+    <!-- SEARCH FORM -->
+    <div class="hero">
+        <div class="container">
+            <form action="index.html" class="search-form">
+                <div class="form-group" style="flex: 100%;">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" name="city" class="form-control" placeholder="Type your distination">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckOut" placeholder="Check Out">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select class="form-control">
+                        <option value="">Rooms</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">Adults</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">Children</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Check</button>
+                </div>
+            </form>
+            <p class="need-help">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, expedita.
+                <a href="#">Need Help</a>
+            </p>
+        </div>
+    </div>
+    <!-- search form -->
+
+    <!-- SUBSCRIBE -->
+    <section class="section-color">
+        <div class="container"></div>
+    </section>
+    <!-- subscribe -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
