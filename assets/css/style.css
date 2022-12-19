@@ -3,6 +3,7 @@
     --color-primary: #ee5057;
     --color-secondary: #111;
     --color-text: #898989;
+    --color-light: #f4f4f4;
     /* colors */
 
     /* FONT */
@@ -110,8 +111,10 @@
 }
 /* search form */
 
-section{
+ /* SUBSCRIBE */
+ section{
     padding: var(--padding-double) 0;
+    position: relative;
 }
 .section-color{
     background-color: var(--color-primary);
@@ -130,3 +133,37 @@ section{
     background-color: #fff;
     color: var(--color-primary);
 }
+/* subscribe */
+    
+/* SERVICES */
+.section-arrow-down{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: var(--height-primary);
+}
+.article{
+    text-align: center;
+    margin-top: var(--size-double);
+    padding: var(--padding-primary);
+    transition: .2s ease-in;
+    color: var(--color-primary);
+}
+.article:hover{
+    scale: 1.1;
+    box-shadow: 0 0 7px 0 var(--color-text);
+}
+.article .article-icon{
+    font-size: 4rem;
+    margin-bottom: var(--margin-primary);
+}
+.btn-fit{
+    width: max-content;
+}
+/* services */
+
+/* SLIDER */
+.section-grey{
+    background-color: var(--color-light);
+}
+/* slider */
