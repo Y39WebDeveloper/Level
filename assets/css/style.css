@@ -166,14 +166,17 @@
 .section-grey{
     background-color: var(--color-light);
 }
-.level-slider{
-    background-color: #fff;
-}
 .level-slider img{
     width: 100%;
 }
 .level-slider-item-container{
     padding: var(--padding-primary);
+}
+.level-slider-item{background-color: #fff;}
+@media (min-width: 768px) {
+    .level-slider .level-slider-item{
+        margin-right: var(--size-half);
+    }
 }
 .level-slider .level-slider-item h3{
     font-size: var(--font-size-title);
