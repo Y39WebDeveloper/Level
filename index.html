@@ -19,17 +19,17 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Website Logo"><span class="logo-text">Level</span></a>
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Website Logo"><h1 class="logo-text">Level</h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="level-nav-link nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="level-nav-link nav-link" href="#">Portfolio</a>
-                    <a class="level-nav-link nav-link" href="#">Blog</a>
-                    <a class="level-nav-link nav-link" href="#">Contact</a>
+                    <a class="level-nav-link nav-link active" aria-current="page" href="#search">Search</a>
+                    <a class="level-nav-link nav-link" href="#services">Services</a>
+                    <a class="level-nav-link nav-link" href="#recommends">Recommends</a>
+                    <a class="level-nav-link nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
     <!-- navbar -->
 
     <!-- SEARCH FORM -->
-    <div class="hero">
+    <div class="hero" id="search">
         <div class="container">
             <form action="index.html" class="search-form">
                 <div class="form-group" style="flex: 100%;">
@@ -125,7 +125,7 @@
     <!-- subscribe -->
 
     <!-- SERVICES -->
-    <section>
+    <section id="services">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="section-arrow-down">
             <polygon points="0,0 100,0 50,50" fill="var(--color-primary)" />
         </svg>
@@ -157,7 +157,7 @@
     <!-- services -->
 
     <!-- SLIDER -->
-    <section class="section-grey">
+    <section class="section-grey" id="recommends">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -267,23 +267,43 @@
     </section>
     <!-- video section -->
 
-    <!-- CONTACT -->
-    <section>
+    <!-- CONTACT / MAP-->
+    <section id="contact">
         <div class="container">
-            <form action="" class="contact-form">
-                <div class="form-group"><input type="text" name="" id="" class="form-control" placeholder="Name" required><i class="fa fa-user"></i></div>
-                <div class="form-group"><input type="email" name="" id="" class="form-control" placeholder="Email" required><i class="fa fa-envelope"></i></div>
-                <div class="form-group"><input type="text" name="" id="" class="form-control" placeholder="Subject" required><i class="fa fa-book"></i></div>
-                <div class="form-group"><textarea type="text" name="" id="" class="form-control" placeholder="Message" required rows="9"></textarea><i class="fa fa-commenting"></i></div>
-                <button type="submit" class="btn btn-primary">Send message now</button>
-            </form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25583.91962824359!2d3.168929847600007!3d36.722802516262306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e518ca205dba5%3A0x612915af805ffa6!2sBab%20Ezzouar!5e0!3m2!1sfr!2sdz!4v1671607549910!5m2!1sfr!2sdz"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="" class="contact-form">
+                        <div class="form-group"><input type="text" name="" id="" class="form-control" placeholder="Name" required><i
+                                class="fa fa-user"></i></div>
+                        <div class="form-group"><input type="email" name="" id="" class="form-control" placeholder="Email" required><i
+                                class="fa fa-envelope"></i></div>
+                        <div class="form-group"><input type="text" name="" id="" class="form-control" placeholder="Subject" required><i
+                                class="fa fa-book"></i></div>
+                        <div class="form-group"><textarea type="text" name="" id="" class="form-control" placeholder="Message" required
+                                rows="9"></textarea><i class="fa fa-commenting"></i></div>
+                        <button type="submit" class="btn btn-primary">Send message now</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- contact -->
+    <!-- contact / map-->
 
-
-
-    <div style="height: 500px;"></div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2022 Your Company - Design: <a href="">Designer Name</a></p>
+        </div>
+    </footer>
+    <!-- footer -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery-3.6.0.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
